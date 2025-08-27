@@ -11,3 +11,16 @@ export function countOnes(numbers) {
 
   return antallOnes;
 }
+
+export function countTwos(numbers) {
+  let antallTwos = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] === 1) {
+      antallTwos++;
+    }
+  }
+
+  return antallTwos;
+}
+
+
