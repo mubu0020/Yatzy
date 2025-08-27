@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "prettier --check .",
+    "test": "prettier --write .",
     "prepare": "husky",
     "test:watch": "vitest --watch"
   },
