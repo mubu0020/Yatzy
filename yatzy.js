@@ -22,5 +22,3 @@ export function countTwos(numbers) {
 
   return antallTwos;
 }
-
-
